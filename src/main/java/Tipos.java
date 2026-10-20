@@ -1,5 +1,21 @@
 public enum Tipos {
     PLANTA,
     FUEGO,
-    AGUA
+    AGUA,
+    VOLADOR,
+    BICHO,
+    NORMAL,
+    ELECTRICO,
+    TIERRA,
+    VENENO,
+    HADA,
+    ACERO,
+    SINIESTRO,
+    FANTASMA,
+    ROCA,
+    HIELO,
+    DRAGON,
+    LUCHA,
+    PSIQUICO
+
 }
