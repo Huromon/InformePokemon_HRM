@@ -16,6 +16,7 @@ public enum Tipos {
     HIELO,
     DRAGON,
     LUCHA,
-    PSIQUICO
+    PSIQUICO;
+
 
 }
