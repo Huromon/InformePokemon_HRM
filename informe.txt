@@ -1,0 +1,73 @@
+======================
+ INFORME DE POKEMON
+======================
+Total de pokemons = 50
+Nivel Medio = 19.02
+Ps Medio = 60.04
+Nivel Max (36):
+Charizard
+PS Max (140):
+Wigglytuff
+---------------
+ Pokemons por tipo 
+---------------
+Tipo: PLANTA
+Bulbasaur
+Ivysaur
+Venusaur
+Oddish
+Gloom
+Vileplume
+Tipo: FUEGO
+Charmander
+Charmeleon
+Charizard
+Vulpix
+Ninetales
+Tipo: AGUA
+Squirtle
+Wartortle
+Blastoise
+Tipo: VOLADOR
+Pidgey
+Pidgeotto
+Pidgeot
+Spearow
+Fearow
+Tipo: BICHO
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Paras
+Parasect
+Venonat
+Venomoth
+Tipo: NORMAL
+Rattata
+Raticate
+Tipo: ELECTRICO
+Pikachu
+Raichu
+Tipo: TIERRA
+Sandshrew
+Sandslash
+Diglett
+Tipo: VENENO
+Ekans
+Arbok
+NidoranF
+Nidorina
+Nidoqueen
+NidoranM
+Nidorino
+Nidoking
+Zubat
+Golbat
+Tipo: HADA
+Clefairy
+Clefable
+Jigglypuff
+Wigglytuff
