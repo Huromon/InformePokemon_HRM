@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "tipo": "PLANTA",
+    "nivel": 12,
+    "ps": 45
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "tipo": "FUEGO",
+    "nivel": 15,
+    "ps": 39
+  }
+]
