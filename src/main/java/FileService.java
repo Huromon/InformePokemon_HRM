@@ -64,7 +64,6 @@ public class FileService {
            Integer ps = Integer.parseInt(rst);
 
            Pokemon pokemon = new Pokemon(id,nombre,tipo,nivel,ps);
-            System.out.println(pokemon);
             pokemons.add(pokemon);
 
 
@@ -83,6 +82,7 @@ public class FileService {
         psMedio = psMedio/total;
         Informe += "\nTotal de pokemons = "+total;
         Informe += "\nNivel Medio = "+nivelMedio;
+        Informe += "\nPs Medio = "+psMedio;
         List<String> nivel_max = new ArrayList<>();
         Integer maxsp=0;
          List<String> vida_max = new ArrayList<>();
@@ -92,6 +92,7 @@ public class FileService {
               nivel_max.clear();
               nivel_max.add(pokemon.getNombre());
               maxnv = pokemon.getNivel();
+
           }else if(pokemon.getNivel()==maxnv){
               nivel_max.add(pokemon.getNombre());
           }
@@ -104,8 +105,36 @@ public class FileService {
           }
 
         }
-        Informe += "\nNivel Max = "+nivel_max;
-        for(int i=0;i<.size();i++){}
+        Informe += "\nNivel Max ("+maxnv+"):";
+        for(int i=0;i<nivel_max.size();i++){
+            Informe += "\n"+nivel_max.get(i);
+        }
+        Informe += "\nPS Max ("+maxsp+"):";
+        for(int i=0;i<vida_max.size();i++){
+            Informe += "\n"+vida_max.get(i);
+        }
+     Informe +="\n---------------\n Pokemons por tipo  \n-----------\n";
+
+
+
+
+
+
+            for (Tipos tipo : Tipos.values()) {
+                Boolean existe=false;
+                for (Pokemon pokemon : pokemons) {
+                if(tipo.equals(pokemon.getTipos())){
+                    if(!existe){
+                        Informe+="\nTipo: "+ tipo.toString() + "\n";
+                    }
+                    existe=true;
+                    Informe+= pokemon.getNombre()+"\n";
+                }
+            }
+        }
+
+
+        System.out.println(Informe);
         return Informe;
     }
 

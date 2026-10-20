@@ -18,5 +18,10 @@ public enum Tipos {
     LUCHA,
     PSIQUICO;
 
+    @Override
+    public String toString() {
+        return name();
+    }
+
 
 }
